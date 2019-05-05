@@ -51,6 +51,7 @@
 		378828D7227E72BF0062EDF9 /* LZZUIUtilsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZZUIUtilsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		378828DB227E72BF0062EDF9 /* LZZUIUtilsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZZUIUtilsUITests.m; sourceTree = "<group>"; };
 		378828DD227E72BF0062EDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378828EA227E73180062EDF9 /* LZZUIUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZZUIUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		378828B6227E72B80062EDF9 /* LZZUIUtils */ = {
 			isa = PBXGroup;
 			children = (
+				378828E9227E72D20062EDF9 /* LZZUIUtilsClass */,
 				378828B7227E72B80062EDF9 /* AppDelegate.h */,
 				378828B8227E72B80062EDF9 /* AppDelegate.m */,
 				378828BA227E72B80062EDF9 /* ViewController.h */,
@@ -130,6 +132,14 @@
 				378828DD227E72BF0062EDF9 /* Info.plist */,
 			);
 			path = LZZUIUtilsUITests;
+			sourceTree = "<group>";
+		};
+		378828E9227E72D20062EDF9 /* LZZUIUtilsClass */ = {
+			isa = PBXGroup;
+			children = (
+				378828EA227E73180062EDF9 /* LZZUIUtils.h */,
+			);
+			path = LZZUIUtilsClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
